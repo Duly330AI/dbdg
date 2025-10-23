@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+dist/
+build/
+*.spec
+.cache/
+.pytest_cache/
+.vscode/.ropeproject/
