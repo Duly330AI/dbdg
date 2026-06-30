@@ -1,3 +1,6 @@
+## dbdg README.md
+
+
 # DBDG – Duly's Boulder Dash Game
 
 **DBDG** is a small Python/Pygame cave puzzle game inspired by classic tile-based digging games.
@@ -24,6 +27,13 @@ The game is playable and includes multiple levels, simple physics rules, generat
 - ASCII-based level files
 - Pytest-based test suite
 - Optional Windows executable packaging
+
+## Screenshots
+
+Add screenshots here, for example:
+
+![DBDG gameplay](docs/screenshots/dbdg-gameplay.png)
+![DBDG level](docs/screenshots/dbdg-level.png)
 
 ## Controls
 
@@ -53,6 +63,63 @@ The game is playable and includes multiple levels, simple physics rules, generat
 
 
 python -m venv .venv
+
+
+### Activate it
+
+Windows PowerShell:
+
+
+.\.venv\Scripts\Activate.ps1
+
+
+macOS/Linux:
+
+
+source .venv/bin/activate
+
+
+### Install and run
+
+
+pip install -e ".[dev]"
+python -m dbdg
+
+## Tests
+
+
+pytest -q
+
+
+## Packaging
+
+Example Windows build with PyInstaller:
+
+
+pyinstaller -F -n dbdg --clean -i NONE -w -m dbdg
+
+
+## Project Structure
+
+
+src/dbdg/
+  engine/        # grid and physics logic
+  game.py        # Pygame loop and rendering
+  __main__.py    # python -m dbdg
+assets/sfx/      # generated WAV files
+levels/          # ASCII levels
+tests/           # pytest tests
+.vscode/         # editor setup
+
+## Notes
+
+DBDG is a small completed side project. It was built as an LLM-/agent-friendly Python codebase with separated game logic, simple rendering, generated assets, and tests.
+
+## License
+
+MIT
+
+
 ## Screenshots
 
 <img width="639" height="413" alt="Screenshot 2025-10-23 170058" src="https://github.com/user-attachments/assets/7965afd6-b55f-4b3d-8af2-15b1c8ccb5c0" />
