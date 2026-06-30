@@ -1,6 +1,3 @@
-## dbdg README.md
-
-
 # DBDG – Duly's Boulder Dash Game
 
 **DBDG** is a small Python/Pygame cave puzzle game inspired by classic tile-based digging games.
@@ -30,10 +27,9 @@ The game is playable and includes multiple levels, simple physics rules, generat
 
 ## Screenshots
 
-Add screenshots here, for example:
+<img width="639" height="413" alt="DBDG gameplay screenshot" src="https://github.com/user-attachments/assets/7965afd6-b55f-4b3d-8af2-15b1c8ccb5c0" />
 
-![DBDG gameplay](docs/screenshots/dbdg-gameplay.png)
-![DBDG level](docs/screenshots/dbdg-level.png)
+<img width="642" height="414" alt="DBDG level screenshot" src="https://github.com/user-attachments/assets/052df751-5aad-4ae3-bea2-9d032d47cec7" />
 
 ## Controls
 
@@ -61,47 +57,48 @@ Add screenshots here, for example:
 
 ### Create a virtual environment
 
-
+```bash
 python -m venv .venv
-
+```
 
 ### Activate it
 
 Windows PowerShell:
 
-
+```powershell
 .\.venv\Scripts\Activate.ps1
-
+```
 
 macOS/Linux:
 
-
+```bash
 source .venv/bin/activate
-
+```
 
 ### Install and run
 
-
+```bash
 pip install -e ".[dev]"
 python -m dbdg
+```
 
 ## Tests
 
-
+```bash
 pytest -q
-
+```
 
 ## Packaging
 
 Example Windows build with PyInstaller:
 
-
+```bash
 pyinstaller -F -n dbdg --clean -i NONE -w -m dbdg
-
+```
 
 ## Project Structure
 
-
+```text
 src/dbdg/
   engine/        # grid and physics logic
   game.py        # Pygame loop and rendering
@@ -110,6 +107,7 @@ assets/sfx/      # generated WAV files
 levels/          # ASCII levels
 tests/           # pytest tests
 .vscode/         # editor setup
+```
 
 ## Notes
 
@@ -118,14 +116,3 @@ DBDG is a small completed side project. It was built as an LLM-/agent-friendly P
 ## License
 
 MIT
-
-
-## Screenshots
-
-<img width="639" height="413" alt="Screenshot 2025-10-23 170058" src="https://github.com/user-attachments/assets/7965afd6-b55f-4b3d-8af2-15b1c8ccb5c0" />
-
-<img width="642" height="414" alt="Screenshot 2025-10-23 170956" src="https://github.com/user-attachments/assets/052df751-5aad-4ae3-bea2-9d032d47cec7" />
-
-
-
-**Lizenz:** MIT
