@@ -65,4 +65,12 @@ dbdg/
 - Partikel/Shader (optional), Menü/HUD-Verbesserungen
 - CI (GitHub Actions) ist bereits enthalten (pytest)
 
+## Screenshots
+
+<img width="639" height="413" alt="Screenshot 2025-10-23 170058" src="https://github.com/user-attachments/assets/7965afd6-b55f-4b3d-8af2-15b1c8ccb5c0" />
+
+<img width="642" height="414" alt="Screenshot 2025-10-23 170956" src="https://github.com/user-attachments/assets/052df751-5aad-4ae3-bea2-9d032d47cec7" />
+
+
+
 **Lizenz:** MIT
