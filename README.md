@@ -12,18 +12,18 @@ The game is playable and includes multiple levels, simple physics rules, generat
 
 ## Features
 
-- Tile-based cave gameplay
-- Dirt digging
-- Gem collection
-- Falling rocks and gems
-- Basic rolling physics
-- Exit unlock logic
-- Restart and pause controls
-- Programmatically generated graphics
-- Generated 8-bit-style WAV sound effects
-- ASCII-based level files
-- Pytest-based test suite
-- Optional Windows executable packaging
+* Tile-based cave gameplay
+* Dirt digging
+* Gem collection
+* Falling rocks and gems
+* Basic rolling physics
+* Exit unlock logic
+* Restart and pause controls
+* Programmatically generated graphics
+* Generated 8-bit-style WAV sound effects
+* ASCII-based level files
+* Pytest-based test suite
+* Optional Windows executable packaging
 
 ## Screenshots
 
@@ -33,25 +33,25 @@ The game is playable and includes multiple levels, simple physics rules, generat
 
 ## Controls
 
-- **Arrow keys:** move, dig dirt, collect gems, push rocks
-- **R:** restart level
-- **P:** pause
-- **ESC:** quit
+* **Arrow keys:** move, dig dirt, collect gems, push rocks
+* **R:** restart level
+* **P:** pause
+* **ESC:** quit
 
 ## Game Rules
 
-- Rocks and gems fall downward when unsupported.
-- Rocks can roll sideways if blocked below and space is available.
-- The player digs through dirt by moving into it.
-- Gems increase the score.
-- The exit opens when enough gems have been collected.
+* Rocks and gems fall downward when unsupported.
+* Rocks can roll sideways if blocked below and space is available.
+* The player digs through dirt by moving into it.
+* Gems increase the score.
+* The exit opens when enough gems have been collected.
 
 ## Tech Stack
 
-- Python
-- Pygame
-- Pytest
-- PyInstaller optional
+* Python
+* Pygame
+* Pytest
+* PyInstaller optional
 
 ## Quick Start
 
